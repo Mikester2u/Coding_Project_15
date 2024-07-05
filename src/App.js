@@ -29,7 +29,25 @@ function App() {
     );
   };
 
-  
+  const Experience = () => {
+    return (
+      <section className="experience">
+        <h2>Experience</h2>
+        <div>
+          <h3>Sales Associate </h3>
+          <p>The Home Depot</p>
+          <p>September 2019 - Present</p>
+          <p>Provided customer service and maintained departments</p>
+        </div>
+        <div>
+          <h3>Esports Supervisor</h3>
+          <p>University of South Florida</p>
+          <p>Aug 2022 - Jan 2023</p>
+          <p>Lead and coordinated multiple esports events and personnel </p>
+        </div>
+      </section>
+    );
+  };
 
   return (
     <div className="App">
