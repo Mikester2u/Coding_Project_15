@@ -49,6 +49,19 @@ function App() {
     );
   };
 
+  const Education = () => {
+    return (
+      <section className="education">
+        <h2>Education</h2>
+        <div>
+          <h3>Business Analytics and Information Systems</h3>
+          <p>University of South Florida</p>
+          <p>Graduation Year: 2025</p>
+        </div>
+      </section>
+    );
+  };
+
   return (
     <div className="App">
       <header className="App-header">
