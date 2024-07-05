@@ -14,6 +14,23 @@ function App() {
       </section>
     );
   };
+
+  const Skills = () => { //Skills Section
+    return (
+      <section className="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>CSS</li>
+          <li>HTML</li>
+        </ul>
+      </section>
+    );
+  };
+
+  
+
   return (
     <div className="App">
       <header className="App-header">
