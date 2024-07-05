@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
 
-  const PersonalInfo = () => { //Personal Information Section
+  const PersonalInfo = () => { 
     return (
       <section className="personal-info">
         <h2>Personal Information</h2>
@@ -15,7 +15,7 @@ function App() {
     );
   };
 
-  const Skills = () => { //Skills Section
+  const Skills = () => { 
     return (
       <section className="skills">
         <h2>Skills</h2>
@@ -29,7 +29,7 @@ function App() {
     );
   };
 
-  const Experience = () => {
+  const Experience = () => { 
     return (
       <section className="experience">
         <h2>Experience</h2>
